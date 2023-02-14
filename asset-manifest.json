@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Coop8.github.io/static/css/main.c06692b9.css",
-    "main.js": "/Coop8.github.io/static/js/main.fc79cad9.js",
+    "main.css": "/Coop8.github.io/static/css/main.658b81e6.css",
+    "main.js": "/Coop8.github.io/static/js/main.ae8ddfd1.js",
     "static/js/496.eca39582.chunk.js": "/Coop8.github.io/static/js/496.eca39582.chunk.js",
     "static/media/logo.svg": "/Coop8.github.io/static/media/logo.c9fb7b96c8204431718e6bbc8956e522.svg",
     "index.html": "/Coop8.github.io/index.html",
-    "main.c06692b9.css.map": "/Coop8.github.io/static/css/main.c06692b9.css.map",
-    "main.fc79cad9.js.map": "/Coop8.github.io/static/js/main.fc79cad9.js.map",
+    "main.658b81e6.css.map": "/Coop8.github.io/static/css/main.658b81e6.css.map",
+    "main.ae8ddfd1.js.map": "/Coop8.github.io/static/js/main.ae8ddfd1.js.map",
     "496.eca39582.chunk.js.map": "/Coop8.github.io/static/js/496.eca39582.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c06692b9.css",
-    "static/js/main.fc79cad9.js"
+    "static/css/main.658b81e6.css",
+    "static/js/main.ae8ddfd1.js"
   ]
 }
