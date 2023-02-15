@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://coop8.github.io/Coop8.github.io",
+  "homepage": "https://www.cooperrockwell.me/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",

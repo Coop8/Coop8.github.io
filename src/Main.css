@@ -7,6 +7,22 @@
   --card-light-color: rgb(219, 225, 228);
 }
 
+a, p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+
+h3 {
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .Hero {
   background-color: var(--bg-color);
   color: #dee4e7;
@@ -26,6 +42,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  color: rgba(222, 228, 231, 0.7);
 }
 
 .Profile-logo {
@@ -34,9 +51,14 @@
 }
 
 .Web-link {
-  color: #dee4e7;
+  color: rgba(222, 228, 231, 0.7);
   transition: all .2s ease-in;
   text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .Web-link:hover {
@@ -45,7 +67,7 @@
 }
 
 .University {
-  color: #dee4e7;
+  color: rgba(222, 228, 231, 0.7);
   transition: all .2s ease-in;
   text-decoration: none;
 }
