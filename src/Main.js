@@ -55,13 +55,19 @@ function Main() {
       <h3>Projects</h3>
       <div id="cards">
         <div className="card">
-          <div className="card-content"></div>
+          <div className="card-content">
+            <h4>Project 1</h4>
+          </div>
         </div>
         <div className="card">
-          <div className="card-content"></div>
+          <div className="card-content">
+            <h4>Project 2</h4>
+          </div>
         </div>
         <div className="card">
-          <div className="card-content"></div>
+          <div className="card-content">
+            <h4>Project 3</h4>
+          </div>
         </div>
       </div>
     </header>
