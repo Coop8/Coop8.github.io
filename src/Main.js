@@ -1,4 +1,5 @@
 import logo from './logo.svg';
+import sivilLogo from './sivilLogo.svg';
 import './Main.css';
 
 function Main() {
@@ -18,7 +19,7 @@ function Main() {
   return (
     <header className="Hero">
       <div className="Profile-logo">
-        <img src={logo} width="100" height="50" alt="logo"/>
+        <img src={logo} width="150" height="75" alt="logo"/>
       </div>
       <h2>
         Cooper Rockwell
@@ -54,21 +55,45 @@ function Main() {
       </a>
       <h3>Projects</h3>
       <div id="cards">
-        <div className="card">
-          <div className="card-content">
-            <h4>Project 1</h4>
+        <a
+        className="Web-link"
+        href="https://github.com/Coop8/Sivil"
+        target="_blank"
+        rel="noopener noreferrer"
+        >
+          <div className="card">
+            <div className="card-content">
+              <img src={sivilLogo} width="50" height="50" alt="logo" className="ProjectLogo"/>
+              <h4>Sivil</h4>
+            </div>
           </div>
-        </div>
-        <div className="card">
-          <div className="card-content">
-            <h4>Project 2</h4>
+        </a>
+        <a
+        className="Web-link"
+        href="https://github.com/Coop8/Rays"
+        target="_blank"
+        rel="noopener noreferrer"
+        >
+          <div className="card">
+            <div className="card-content">
+              <img src={sivilLogo} width="50" height="50" alt="logo" className="ProjectLogo"/>
+              <h4>Rays</h4>
+            </div>
           </div>
-        </div>
-        <div className="card">
-          <div className="card-content">
-            <h4>Project 3</h4>
+        </a>
+        <a
+        className="Web-link"
+        href="https://github.com/Coop8/Coop8.github.io"
+        target="_blank"
+        rel="noopener noreferrer"
+        >
+          <div className="card">
+            <div className="card-content">
+              <img src={sivilLogo} width="50" height="50" alt="logo" className="ProjectLogo"/>
+              <h4>Portfolio</h4>
+            </div>
           </div>
-        </div>
+        </a>
       </div>
     </header>
   );

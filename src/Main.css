@@ -150,5 +150,7 @@ h3 {
   inset: 1px;
   padding: 10px;
   position: absolute;
+  justify-content: center;
+  align-items: center;
   z-index: 2;
 }
