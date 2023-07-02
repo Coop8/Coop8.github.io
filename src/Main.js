@@ -1,5 +1,4 @@
 import logo from './logo.svg';
-import sivilLogo from './sivilLogo.svg';
 import './Main.css';
 
 function Main() {
@@ -53,47 +52,51 @@ function Main() {
       >
         LinkedIn
       </a>
+      <a
+        className="Web-link"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <dfn data-info="clicking this link will download resume">Resume</dfn>
+      </a>
       <h3>Projects</h3>
       <div id="cards">
-        <a
-        className="Web-link"
-        href="https://github.com/Coop8/Sivil"
-        target="_blank"
-        rel="noopener noreferrer"
-        >
-          <div className="card">
-            <div className="card-content">
-              <img src={sivilLogo} width="50" height="50" alt="logo" className="ProjectLogo"/>
+        <div className="card">
+          <div className="card-content">
+            <a
+              className="Card-link"
+              href="https://github.com/Coop8/Sivil"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <h4>Sivil</h4>
-            </div>
+            </a>
           </div>
-        </a>
-        <a
-        className="Web-link"
-        href="https://github.com/Coop8/Rays"
-        target="_blank"
-        rel="noopener noreferrer"
-        >
-          <div className="card">
-            <div className="card-content">
-              <img src={sivilLogo} width="50" height="50" alt="logo" className="ProjectLogo"/>
+        </div>
+        <div className="card">
+          <div className="card-content">
+            <a
+              className="Card-link"
+              href="https://github.com/Coop8/Rays"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <h4>Rays</h4>
-            </div>
+            </a>
           </div>
-        </a>
-        <a
-        className="Web-link"
-        href="https://github.com/Coop8/Coop8.github.io"
-        target="_blank"
-        rel="noopener noreferrer"
-        >
-          <div className="card">
-            <div className="card-content">
-              <img src={sivilLogo} width="50" height="50" alt="logo" className="ProjectLogo"/>
+        </div>
+        <div className="card">
+          <div className="card-content">
+            <a
+              className="Card-link"
+              href="https://github.com/Coop8/Coop8.github.io"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <h4>Portfolio</h4>
-            </div>
+            </a>
           </div>
-        </a>
+        </div>
       </div>
     </header>
   );
