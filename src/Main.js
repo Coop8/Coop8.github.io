@@ -54,10 +54,12 @@ function Main() {
       </a>
       <a
         className="Web-link"
+        href="Resume_CJR_2023.pdf"
+        download="Resume_CJR_2023.pdf"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <dfn data-info="clicking this link will download resume">Resume</dfn>
+        <dresume data-info="Clicking this link will download my resume">Resume</dresume>
       </a>
       <h3>Projects</h3>
       <div id="cards">
@@ -69,8 +71,8 @@ function Main() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <h4>Sivil</h4>
             </a>
+            <dcard data-info="iOS Spotlight View Customizer">Sivil</dcard>
           </div>
         </div>
         <div className="card">
@@ -81,8 +83,8 @@ function Main() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <h4>Rays</h4>
             </a>
+            <dcard data-info="iOS weather app">Rays</dcard>
           </div>
         </div>
         <div className="card">
@@ -93,8 +95,8 @@ function Main() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <h4>Portfolio</h4>
             </a>
+            <dcard data-info="Personal portfolio using React">Portfolio</dcard>
           </div>
         </div>
       </div>

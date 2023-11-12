@@ -67,23 +67,6 @@ h3 {
   text-decoration: none;
 }
 
-.Resume-link {
-  color: rgba(222, 228, 231, 0.7);
-  transition: all .2s ease-in;
-  text-decoration: none;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-
-.Resume-link:hover {
-  color: var(--hover-color);
-  text-decoration: none;
-}
-
 .Card-link {
   color: rgba(222, 228, 231, 0.7);
   transition: all .2s ease-in;
@@ -151,6 +134,7 @@ h3 {
   top: 0px;
   transition: opacity 500ms;
   width: 100%;
+  pointer-events:none;
 }
 
 .card::before {
@@ -185,31 +169,33 @@ h3 {
   z-index: 2;
 }
 
-dfn {
-  color: #dee4e7;
+dresume {
+  color: rgba(222, 228, 231, 0.7);
   padding: 0 0.4em;
   font-style: normal;
   position: relative;
+  transition: all .2s ease-in;
+  text-decoration: none;
   
 }
-dfn::after {
+dresume::after {
   content: attr(data-info);
   display: inline;
   position: absolute;
-  top: 60px; left: -68%;
+  top: 60px; left: -80%;
   opacity: 0;
   width: 400px;
   font-size: 15px;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 1.5em;
   padding: 0.5em 0.8em;
-  color: #dee4e7;
+  color: rgba(222, 228, 231, 0.7);
   pointer-events: none;
   transition: opacity 400ms, top 250ms;
 }
-dfn::before {
+dresume::before {
   content: '';
-  color: #dee4e7;
+  color: rgba(222, 228, 231, 0.7);
   display: block;
   position: absolute;
   top: 12px; left: 20px;
@@ -218,8 +204,53 @@ dfn::before {
   border: solid transparent 5px;
   transition: opacity 250ms, top 250ms;
 }
-dfn:hover {z-index: 2;} /* Keeps the info boxes on top of other elements */
-dfn:hover::after,
-dfn:hover::before {opacity: 1;}
-dfn:hover::after {top: 30px;}
-dfn:hover::before {top: 20px;}
+dresume:hover {z-index: 2;
+  color: var(--hover-color);
+  text-decoration: none;} /* Keeps the info boxes on top of other elements */
+dresume:hover::after,
+dresume:hover::before {opacity: 1;}
+dresume:hover::after {top: 30px;}
+dresume:hover::before {top: 20px;}
+
+dcard {
+  color: rgba(222, 228, 231, 0.7);
+  padding: 0 0.4em;
+  font-style: normal;
+  position: relative;
+  transition: all .2s ease-in;
+  text-decoration: none;
+  
+}
+dcard::after {
+  content: attr(data-info);
+  display: inline;
+  position: absolute;
+  top: 70px; left: -106%;
+  opacity: 0;
+  width: 400px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.5em;
+  padding: 0.5em 0.8em;
+  color: rgba(222, 228, 231, 0.7);
+  pointer-events: none;
+  transition: opacity 400ms, top 250ms;
+}
+dcard::before {
+  content: '';
+  color: rgba(222, 228, 231, 0.7);
+  display: block;
+  position: absolute;
+  top: 12px; left: 20px;
+  opacity: 0;
+  width: 0; height: 0;
+  border: solid transparent 5px;
+  transition: opacity 250ms, top 250ms;
+}
+dcard:hover {z-index: 2;
+  color: var(--hover-color);
+  text-decoration: none;} /* Keeps the info boxes on top of other elements */
+dcard:hover::after,
+dcard:hover::before {opacity: 1;}
+dcard:hover::after {top: 30px;}
+dcard:hover::before {top: 20px;}
