@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './Main.css';
+import resume from './Resume_CJR_2023.pdf';
 
 function Main() {
   window.onload = function(){
@@ -54,7 +55,7 @@ function Main() {
       </a>
       <a
         className="Web-link"
-        href="Resume_CJR_2023.pdf"
+        href={resume}
         download="Resume_CJR_2023.pdf"
         target="_blank"
         rel="noopener noreferrer"
